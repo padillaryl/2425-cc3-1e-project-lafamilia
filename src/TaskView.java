@@ -146,7 +146,7 @@ public class TaskView {
         }
     }
 
-    static class TaskComponent {
+    class TaskComponent {
         private TaskPanel panel;
         private Color pink = new Color(255, 161, 161);
         private Color green = new Color(188, 226, 158);
