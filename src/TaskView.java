@@ -146,7 +146,7 @@ public class TaskView {
         }
     }
 
-    class TaskComponent {
+    static class TaskComponent {
         private TaskPanel panel;
         private Color pink = new Color(255, 161, 161);
         private Color green = new Color(188, 226, 158);
@@ -176,7 +176,7 @@ public class TaskView {
             return panel.getText();
         }
 
-        static class TaskPanel extends JPanel {
+        class TaskPanel extends JPanel {
             private JLabel index;
             private JTextField taskName;
             private JButton done;
